@@ -24,7 +24,7 @@
         <h2>Sobre mim</h2>
 
         <img src="https://lh3.googleusercontent.com/a/ACg8ocI-TRTwtEs0hFT_bDN8ew40VauAUMfvEyvgJCES3mJjFpktmmxc7g=s288-c-no"
-        title="Imagem de perfil">
+            title="Imagem de perfil">
 
         <article>
 
@@ -33,7 +33,7 @@
                 Física mas pretendo migrar de carreira. Gosto de jogar jogos no computador, de animais, do meu namorado,
                 de cozinhar e aprender coisas novas. Estou experimentando o mundo tecnologico e até agora gostei
                 bastante.
-                
+
 
             </p>
 
@@ -72,6 +72,42 @@
                 Email: <a href="mailto:gabriellygaruva@gmail.com">gabriellygaruva@gmail.com</a>
                 Telefone: <a href="tel:+554793380-2058">+554793380-2058</a>
             </Address>
+
+            <form action="">
+
+                <label for="nome">Nome:
+                    <input type="text" id="nome" required> <br>
+
+                    <label for="email">Email:
+                        <input type="email" id="email" required> <br>
+
+                        <label for="telefone">Telefone:
+                            <input type="telefone" id="telefone"> <br>
+
+                            <label for="assunto">Assunto: </label>
+                            <select name="assunto" id="assunto">
+                                <option value="orcamento">Orçamento</option>
+                                <option value="duvida">Dúvida</option>
+                                <option value="outro">Outro</option>
+                            </select>
+
+                            <label for="mensagem">Mensagem</label>
+                            <textarea name="mensagem" id="mensagem" cols="20" rows="5" required></textarea>
+
+                            <br>
+
+                        </label>
+
+                        <input type="checkbox" id="inscricao" name="inscricao">
+                        <label for="inscricao">Deseja receber minha newsletter? Fique por dentro!
+
+                        </label>
+
+                        <br>
+                        <input type="submit" value="Enviar mensagem">
+
+
+            </form>
         </Section>
     </footer>
 </body>
